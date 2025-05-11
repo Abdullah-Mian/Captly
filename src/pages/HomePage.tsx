@@ -392,6 +392,7 @@ const PricingCard = ({
           className={`mt-8 w-full py-3 px-4 rounded-md text-white font-medium ${
             highlighted ? 'bg-blue-600 hover:bg-blue-700' : 'bg-gray-800 hover:bg-gray-700 dark:bg-blue-600 dark:hover:bg-blue-700'
           }`}
+          onClick={() => window.location.href = buttonLink}
         >
           {buttonText}
         </motion.button>
