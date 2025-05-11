@@ -29,7 +29,7 @@ const Navbar = () => {
                 Log In
               </Link>
               <Link to="/signup" className="btn btn-primary">
-                Sign Up Free
+                Start Free Trial
               </Link>
             </div>
           </div>
@@ -69,7 +69,7 @@ const Navbar = () => {
                 className="btn btn-primary py-3"
                 onClick={() => setIsOpen(false)}
               >
-                Sign Up Free
+                Start Free Trial
               </Link>
             </div>
           </div>
@@ -89,7 +89,7 @@ const NavLinks = ({ mobile }: { mobile?: boolean }) => {
     { name: "Features", href: "#features" },
     { name: "Pricing", href: "#pricing" },
     { name: "Testimonials", href: "#testimonials" },
-    { name: "Help", href: "#help" },
+    { name: "Contact", href: "#contact" },
   ]
   
   return (
